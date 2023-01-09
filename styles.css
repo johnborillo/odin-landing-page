@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #F2EEE8;
+    padding: 1em 5em;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav ul {
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+    font-weight: 500;
+}
+
+header .welcome {
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome .leftSide{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome .leftSide h1{
+    font-size: 48px;
+    padding-right: 2cm;
+    padding-bottom: 0.5cm;
+}
+
+.welcome .leftSide p{
+    font-size: 18px;
+    padding-right: 1cm;
+    padding-bottom: 0.5cm;
+}
+
+.welcome .leftSide button{
+    padding: 7px 1em;
+    background-color: #d6b076;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
