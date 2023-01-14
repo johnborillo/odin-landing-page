@@ -56,30 +56,64 @@ header .welcome {
     justify-content: space-between;
 }
 
-.welcome .leftSide{
+.welcome .leftSide {
     padding: 2em;
     display: flex;
     flex-direction: column;
 }
 
-.welcome .leftSide h1{
+.welcome .leftSide h1 {
     font-size: 48px;
     padding-right: 2cm;
     padding-bottom: 0.5cm;
 }
 
-.welcome .leftSide p{
+.welcome .leftSide p {
     font-size: 18px;
     padding-right: 1cm;
     padding-bottom: 0.5cm;
 }
 
-.welcome .leftSide button{
+/* ORIGINAL "SIGN UP" BUTTON
+.welcome .leftSide button {
     padding: 7px 1em;
     background-color: #d6b076;
     width: 120px;
     font-size: 20px;
     border-radius: 8px;
     border: none;
+} */
+
+
+.welcome .leftSide button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #7b5c2e, #edd7b7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 7px 1em;
+    width: 140px;
 }
 
+button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+    0% {
+        box-shadow: 0 0 0 0 #715d3e;
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}
