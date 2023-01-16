@@ -132,10 +132,6 @@ button:hover {
     justify-content: space-evenly;
 }
 
-.flexContainer .flexItem1, .flexItem2, .flexItem3, .flexItem4{
-    
-}
-
 .flexContainer img {
     height: 400px;
     width: 300px;
