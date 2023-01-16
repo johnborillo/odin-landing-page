@@ -145,3 +145,18 @@ button:hover {
     border-radius: 10px;
 }
 
+.section3 {
+    background-color: #f6ebd3;
+    padding: 6cm;
+}
+
+.quote{
+    font-style: italic;
+    text-align: center;
+}
+
+.quoter{
+    font-size: 16px;
+    padding-top: 1em;
+    padding-left: 17cm
+}
